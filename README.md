@@ -7,6 +7,12 @@ Every entry follows the same structure an audit finding would: the vulnerable co
 the fix, and tests proving the fix holds. All PoCs are written in [Foundry](https://getfoundry.sh) and run
 locally.
 
+## Tools
+
+| Tool | What it does |
+|---|---|
+| [erc4626-invariants](https://github.com/keldxd/erc4626-invariants) | Drop-in Foundry suite that stress-tests any ERC4626 vault with multi-user fuzzing; catches 6 of 6 seeded real-world bug classes with zero false positives on OpenZeppelin's vault |
+
 ## Writeups
 
 | # | Vulnerability | Severity | Real-world incidents | Writeup |
